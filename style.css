@@ -6,7 +6,7 @@
 
 section {
   height: 100vh;
-  background-color: rgb(39, 41, 68);
+  background-color: rgb(170, 153, 54);
   font-family: sans-serif;
 }
 
@@ -16,6 +16,7 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  transition: opacity 0.5s ease 0.5s;
 }
 .score h2 {
   font-size: 30px;
@@ -47,7 +48,7 @@ section {
   border: none;
   color: rgb(224, 224, 224);
   font-size: 20px;
-  background: rgb(45, 117, 96);
+  background: rgb(47, 27, 94);
   border-radius: 3px;
   cursor: pointer;
 }
@@ -85,6 +86,8 @@ div.fadeIn {
   opacity: 1;
   pointer-events: all;
 }
+
+
 
 @keyframes shakePlayer {
   0% {
