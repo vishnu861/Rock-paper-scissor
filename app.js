@@ -8,7 +8,9 @@ const game = () => {
       const introScreen = document.querySelector(".intro");
       const match = document.querySelector(".match");
       const score = document.querySelector(".score");
+      const snd = document.querySelector(".sound");
       playBtn.addEventListener("click", () => {
+        snd.play();
         introScreen.classList.add("fadeOut");
         match.classList.add("fadeIn");
         score.classList.add("fadeIn");
@@ -28,10 +30,11 @@ const game = () => {
       });
       //Computer Options
       const computerOptions = ["rock", "paper", "scissors"];
-  
+      const snd = document.querySelector(".sound");
       options.forEach(option => {
         option.addEventListener("click", function() {
           //Computer Choice
+          snd.play();
           const computerNumber = Math.floor(Math.random() * 3);
           const computerChoice = computerOptions[computerNumber];
   
