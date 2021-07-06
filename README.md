@@ -3,9 +3,9 @@
 Rock Paper Scissors game to play in browser.
 
 Build with:
-*HTML
-*CSS
-*JAVASCRIPT
+* HTML
+* CSS
+* JAVASCRIPT
 
 #Live Demo
 
