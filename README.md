@@ -7,7 +7,7 @@ Build with:
 * CSS
 * JAVASCRIPT
 
-#Live Demo
+# Live Demo
 
 [live demo link](https://vishnu861.github.io/Rock-paper-scissor)
 
